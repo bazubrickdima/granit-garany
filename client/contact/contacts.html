@@ -1,0 +1,76 @@
+<template name="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 mainWrraper">
+                <div class="col-sm-8">
+                    <h2>Контактні дані</h2>
+                    <!--contacts-->
+                    <div>
+                        <p>
+                            Юридична адреса: м. Тернопіль, вул.15 квітня буд.6
+                        </p>
+                        <p>
+                            Директор Погорілець Михайло Зіновійович (050)85-89-190, (098)88-02-037
+                        </p>
+                        <p>
+                            Заступник директора Науменко Микола Павлович (096)43-04-267
+                        </p>
+                        <p>
+                            Бухгалтерія (096)34-32-654
+                        </p>
+                        <p>
+                            Електронна пошта: granit-garant@ukr.net
+                        </p>
+                    </div>
+                    <!--FORM-->
+                    <div>
+
+                        <form class="form-horizontal" id="contacts">
+                            <fieldset>
+                                <legend>Напишіть нам.</legend>
+                                <div class="alert alert-dismissible alert-success">
+                                    <button type="button" class="close" data-dismiss="alert"></button>
+                                    <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+                                </div>
+
+                                <div class="form-group" id="email">
+                                    <label for="inputEmail" class="col-lg-2 control-label">Ваш Email:</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="inputEmail">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2 control-label" for="tema">Тема:</label>
+
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="tema" type="text" value="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="textArea" class="col-lg-2 control-label">Повідомлення</label>
+                                    <div class="col-lg-10">
+                                        <textarea class="form-control" rows="6" id="textArea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-10 col-lg-offset-2">
+                                        <button type="submit" class="btn btn-primary">Відправити</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                   <!-- <div class="alert alert-dismissible alert-danger">
+
+                    </div>-->
+                    <!--MAP-->
+                   <!-- <div class="contactsMap">
+                        map!
+                    </div>-->
+                </div>
+                {{>rightBlocks}}
+            </div>
+        </div>
+    </div>
+</template>
