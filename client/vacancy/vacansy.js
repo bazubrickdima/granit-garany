@@ -3,9 +3,11 @@ Template.vacancy.helpers({
         return Vacancy.find();
     },
     VacansyCount: function () {
-        if(1 >= Vacancy.find().count()){
+        if(0 >= Vacancy.find().count()){
             console.log(Vacancy.find().count());
             return false;
+        }else{
+            return true;
         }
     }
 })

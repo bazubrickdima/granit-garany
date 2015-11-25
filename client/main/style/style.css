@@ -1,5 +1,7 @@
 /*==========================test==================================*/
-
+body p{
+    font-family: Arial, sans-serif;
+}
 .testBorderRed{
     border:1px solid red;
 }
@@ -88,17 +90,32 @@ body{
     width: 100%;
     height: 400px;
 }
+/*.carousel-inner{
+    width: 100%;
+    height: 400px;
+    background-color: #283593;
+}*/
 
 .sliderBlock1{
     background-color: #283593;
 }
-.sliderBlock1 .row >:first-child h4, h1{
+/*.sliderBlock1 .row >:first-child h4, h1{
     color: white;
-}
+}*/
 .sliderBlock1 h1{
     padding-top: 150px;
 }
-.sliderBlock1 .row >:last-child{
+.sliderBlock1 h1, h4{
+    color: white;
+}
+#headServices{
+    color: black;
+}
+/*.sliderBlock1 .row >:last-child{
+    background: rgba(200, 200, 200, 0.3);
+    height: 400px;
+}*/
+.secondaryBlock{
     background: rgba(200, 200, 200, 0.3);
     height: 400px;
 }
@@ -128,8 +145,12 @@ body{
     color:#E0E0E0;
 }*/
 
-.sliderBlock3{
-    background-color: palegreen;
+.block1{
+    background-image: url("kulak.jpg");
+    height: 400px;
+}
+.block1 h4, h1{
+    color: black;
 }
 .rightPopUp h2{
     text-align: right;
