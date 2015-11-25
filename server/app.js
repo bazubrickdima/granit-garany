@@ -2,46 +2,47 @@ Meteor.startup(function() {
 
     if(!Prices.findOne()){
         Prices.insert({
-            'Poslugi':'Ціолодобовий',
-            'grnZaDen': 16,
-            'grnZaMisac': 11712
+            'Послуги':'Ціолодобовий',
+            'грнЗаГод': 16,
+            'грнЗаМісяць': 11712
 
         });
         Prices.insert({
-            'Poslugi':'Денний',
-            'grnZaDen': 24.60,
-            'grnZaMisac': 9000
+            'Послуги':'Денний',
+            'грнЗаГод': 24.60,
+            'грнЗаМісяць': 9000
 
         });
         Prices.insert({
-            'Poslugi':'Нічний',
-            'grnZaDen': 25.95,
-            'grnZaMisac':  9500
+            'Послуги':'Нічний',
+            'грнЗаГод': 25.95,
+            'грнЗаМісяць':  9500
 
         });
         Prices.insert({
-            'Poslugi':'Супровід вантажу',
-            'grnZaDen': 25.00,
-            'grnZaMisac': 18300
+            'Послуги':'Супровід вантажу',
+            'грнЗаГод': 25.00,
+            'грнЗаМісяць': 18300
 
         });
     }
 
     if(!Stats.findOne()){
         Stats.insert({
-            'Spivrobitnuku':'0',
-            'dosvid': 0,
-            'object': 0
+            'Cпівробітники':0,
+            'Досвід': 0,
+            'Обєкти': 0
 
         });
     }
-    /*if(!Contacts.findOne()){
-        Stats.insert({
-            'email':'0',
-            'tema': '0',
-            'text': '0'
+    if(!Vacancy.findOne()){
+        Vacancy.insert({
+            'Вакансія':'0',
+            'Навички': '0',
+            'MісцеРозташування': '0',
+            'ЗаробітнаПлата': '0'
 
         });
-    }*/
+    }
 
 });

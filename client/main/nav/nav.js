@@ -1,3 +1,4 @@
+/*
 var obj = {
     "/asd": function () {
         console.log('ss');
@@ -18,4 +19,4 @@ Template.nav.helpers({
         }
 
     }
-});
+});*/

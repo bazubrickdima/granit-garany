@@ -34,7 +34,7 @@ body{
 }
 .headerLogo{
     background-image: url("headerLogo.jpg");
-    height: 200px;
+    height: 150px;
 }
 .logo{
 /*    margin-top: 1px;*/
@@ -258,5 +258,12 @@ body{
     color:#E0E0E0;
     font-size: 14px;
 }
-
+.smallFooter a{
+    color: #9E9E9E;
+}
+.smallFooter a:hover{
+    color: #E0E0E0;
+    text-decoration: none;
+    cursor: pointer;
+}
 /*==========================footer==================================*/
