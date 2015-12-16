@@ -1,18 +1,32 @@
 /*==========================test==================================*/
-body p{
-    font-family: Arial, sans-serif;
+body{
+    font-family: ClinicaPro-Regular;
+    font-size: 1.6rem;
+    background-color: #F1F2F2;
+    color: #414141;
 }
-.testBorderRed{
-    border:1px solid red;
+
+
+
+@font-face {
+font-family: blisspro-light;
+src: local("blisspro-light"), url("fonts/blisspro-light.otf");
 }
-.testBorderGreen{
-    border:1px solid green;
+@font-face {
+font-family: ClinicaPro-Regular;
+src: local("ClinicaPro-Regular"), url("fonts/ClinicaPro-Regular.otf");
+}
+@font-face {
+font-family: FiraSansOT-Regular;
+src: local("FiraSansOT-Regular"), url("fonts/FiraSansOT-Regular.otf");
+}
+@font-face {
+font-family: FiraSansOT-Light;
+src: local("FiraSansOT-Light"), url("fonts/FiraSansOT-Light.otf");
 }
 
 /*==========================test==================================*/
-body{
-    background-color: #F1F2F2;
-}
+
 .mainWrraper{
     padding-top: 15px;
     background-color: #FFFFFF;
@@ -83,38 +97,41 @@ body{
 
 
 /*==========================slider==================================*/
-.carousel{
+/* .carousel{
     margin-bottom: 20px;
 }
 .carousel-inner > div >:first-child{
     width: 100%;
     height: 400px;
 }
-/*.carousel-inner{
+.carousel-inner{
     width: 100%;
     height: 400px;
     background-color: #283593;
-}*/
+}
 
 .sliderBlock1{
     background-color: #283593;
 }
-/*.sliderBlock1 .row >:first-child h4, h1{
+.sliderBlock1 .row >:first-child h4, h1{
     color: white;
-}*/
+}
 .sliderBlock1 h1{
     padding-top: 150px;
 }
 .sliderBlock1 h1, h4{
     color: white;
 }
+.sliderLogo{
+    margin-top: 50px;
+}
 #headServices{
     color: black;
 }
-/*.sliderBlock1 .row >:last-child{
+.sliderBlock1 .row >:last-child{
     background: rgba(200, 200, 200, 0.3);
     height: 400px;
-}*/
+}
 .secondaryBlock{
     background: rgba(200, 200, 200, 0.3);
     height: 400px;
@@ -124,7 +141,7 @@ body{
     background-color: #283593;
 }
 .sliderBlock2 h4, h1{
-    color: white;
+    color: black;
 }
 .sliderBlock2 h1{
     padding-top: 150px;
@@ -134,16 +151,15 @@ body{
     height: 400px;
 }
 
-/*.sliderBlock2{
+.sliderBlock2{
     background-color: #283593;
    background-image: url("http://images.bizorg.su/goods/598/312/5983125.jpeg");*
-}*/
-/*
+}
 .sliderBlock2 > div{
     font-size: 32px;
     padding-top: 170px;
     color:#E0E0E0;
-}*/
+}
 
 .block1{
     background-image: url("kulak.jpg");
@@ -160,6 +176,7 @@ body{
 .rightPopUp p{
     color: white;
     text-align: right;
+    font-size: 1.8rem;
 
 }
 .leftPopUp h2{
@@ -172,23 +189,104 @@ body{
     text-align: left;
     margin: 0;
 
-}
+} */
 
 /*==========================slider==================================*/
 
 
 
+.carousel{
+margin-bottom: 20px;
+}
+.carousel-inner > div >:first-child{
+width: 100%;
+height: 400px;
+}
 
+.sliderBlock1{
+background-color: black;
+}
+.sliderBlock1 h4,h1{
+color: black;
+}
+.sliderBlock1 h1{
+color: black;
+padding-top: 150px;
+}
+
+.firstSlide{
+background-image: url("kulak.jpg");
+height: 400px;
+}
+.sliderBlock2{
+background: rgb(100, 100, 100);
+
+}
+
+.sliderBlock2 h1{
+padding-top: 10px;
+}
+.secondSlide{
+background: white;
+height: 400px;
+}
+.secondSlide h1,h4{
+color:black;
+}
+.secondSlide img{
+padding-top:50px;
+}
+.rightPopUp{
+background: rgba(200, 200, 200, 0.1);
+height: 400px;
+}
+/*.sliderBlock2{
+background-color: #283593;
+background-image: url("http://images.bizorg.su/goods/598/312/5983125.jpeg");*
+}*/
+/*
+.sliderBlock2 > div{
+font-size: 32px;
+padding-top: 170px;
+color:#E0E0E0;
+}*/
+#slideHead{
+padding-top: 180px;
+}
+
+.rightPopUp h2{
+text-align: right;
+padding-top: 60px;
+color: white;
+}
+.rightPopUp p{
+color: white;
+text-align: right;
+
+}
+.leftPopUp{
+background: rgba(200, 200, 200, 0.1);
+height: 400px;
+}
+.leftPopUp h2{
+text-align: left;
+padding-top: 60px;
+color: white;
+}
+.leftPopUp p{
+color: white;
+text-align: left;
+margin: 0;
+
+}
 
 /*==========================mainContent==================================*/
 .mainContent h2{
-    margin-top: 0;
+    margin-bottom: 1.9rem;
 }
 .mainContent p{
     text-align: justify;
-}
-.mainContent p {
-    font-size: 16px;
+    font-size: 1.8rem;
 }
 .mainContentImg1{
     margin-right: 15px;
@@ -202,7 +300,6 @@ body{
     border-top: 1px solid #F1F2F2;
 }
 .mainContent h3{
-    margin-top: 10px;
 }
 /*==========================mainContent==================================*/
 
