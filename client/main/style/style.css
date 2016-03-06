@@ -29,6 +29,7 @@ src: local("FiraSansOT-Light"), url("fonts/FiraSansOT-Light.otf");
 
 .mainWrraper{
     padding-top: 15px;
+    padding-bottom: 40px;
     background-color: #FFFFFF;
     /*box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);*/
     box-shadow:
@@ -215,7 +216,7 @@ padding-top: 150px;
 }
 
 .firstSlide{
-background-image: url("kulak.jpg");
+background-image: url("slide.jpg");
 height: 400px;
 }
 .sliderBlock2{
@@ -234,7 +235,7 @@ height: 400px;
 color:black;
 }
 .secondSlide img{
-padding-top:50px;
+padding-top:25px;
 }
 .rightPopUp{
 background: rgba(200, 200, 200, 0.1);
@@ -383,5 +384,8 @@ margin: 0;
     color: #E0E0E0;
     text-decoration: none;
     cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: #283593;
 }
 /*==========================footer==================================*/
